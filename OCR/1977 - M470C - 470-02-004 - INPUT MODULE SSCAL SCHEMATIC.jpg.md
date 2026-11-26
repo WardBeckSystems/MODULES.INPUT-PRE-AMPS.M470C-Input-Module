@@ -23,7 +23,7 @@ Wiki page: [M470C](../../../../PAGES/M470C.md)
 - **Words (OCR):** 5 in 5 lines: ddu- · ShELO · JAL · 3P · 77-ict
 - **Wiring (first pass):** 154 connected wire groups from 1,188 runs; labelled ends: 12 mm → ShELO
 
-Every curve, box, word and wire group: [1977 - M470C - 470-02-004 - INPUT MODULE SSCAL SCHEMATIC (traced).json](../SCHEMATICS/1977%20-%20M470C%20-%20470-02-004%20-%20INPUT%20MODULE%20SSCAL%20SCHEMATIC%20(traced).json) (the CAD file: `1977 - M470C - 470-02-004 - INPUT MODULE SSCAL SCHEMATIC (traced).dxf`).
+Every curve, box, word and wire group: [1977 - M470C - 470-02-004 - INPUT MODULE SSCAL SCHEMATIC (traced).json](../SCHEMATICS/1977%20-%20M470C%20-%20470-02-004%20-%20INPUT%20MODULE%20SSCAL%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1977 - M470C - 470-02-004 - INPUT MODULE SSCAL SCHEMATIC (traced).dxf`).
 
 ## Full text
 

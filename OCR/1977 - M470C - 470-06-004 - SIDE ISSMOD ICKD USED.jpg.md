@@ -22,7 +22,7 @@ Wiki page: [M470C](../../../../PAGES/M470C.md)
 - **Words (OCR):** 59 in 48 lines: 22 · 340 · 44 · 28 · 282 · #cRi 820 · RGo = · 48i33748 · 8 2 · 48 · 2 8 · 080
 - **Title block:** (346, 0)–(412, 30) mm: WBS WARD-Deck · M4zoc · INPUT · MODULe · SCALE · COMPONENT [Ayout · 470 - 06 - 004
 
-Every curve, box, word and wire group: [1977 - M470C - 470-06-004 - SIDE ISSMOD ICKD USED (traced).json](../SCHEMATICS/1977%20-%20M470C%20-%20470-06-004%20-%20SIDE%20ISSMOD%20ICKD%20USED%20(traced).json) (the CAD file: `1977 - M470C - 470-06-004 - SIDE ISSMOD ICKD USED (traced).dxf`).
+Every curve, box, word and wire group: [1977 - M470C - 470-06-004 - SIDE ISSMOD ICKD USED (traced).json](../SCHEMATICS/1977%20-%20M470C%20-%20470-06-004%20-%20SIDE%20ISSMOD%20ICKD%20USED%20%28traced%29.json) (the CAD file: `1977 - M470C - 470-06-004 - SIDE ISSMOD ICKD USED (traced).dxf`).
 
 ## Full text
 

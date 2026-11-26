@@ -20,7 +20,7 @@ Wiki page: [M470C](../../../../PAGES/M470C.md)
 - **Words (OCR):** 172 in 115 lines: MASTER OuT · MASTER 2  OUt · LINE IN · LINE IN · SUB Out · SUB OUT · NC · NC · SUB Out · SUB ouT · D/RECT · D/RECT
 - **Title block:** (285, 2)–(432, 70) mm: ISSUE DATE · REVISION · APP · WBS · WARD-BECK SYSTEMS · 70c · ENG · NPut MODULE · CKD: · CONNECTOR REAR VIEW · APP · SCALE · ISSUE · 470-04-008
 
-Every curve, box, word and wire group: [1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW (traced).json](../PINOUTS/1977%20-%20M470C%20-%20470-04-008%20-%20CONNECTOR%20REAR%20VIEW%20(traced).json) (the CAD file: `1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW (traced).dxf`).
+Every curve, box, word and wire group: [1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW (traced).json](../PINOUTS/1977%20-%20M470C%20-%20470-04-008%20-%20CONNECTOR%20REAR%20VIEW%20%28traced%29.json) (the CAD file: `1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW (traced).dxf`).
 
 ## Full text
 

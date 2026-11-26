@@ -22,7 +22,7 @@ Wiki page: [M470C](../../../../PAGES/M470C.md)
 - **Words (OCR):** 112 in 96 lines: WBS · Matoc · PASTER · Khcn · LLF T · Swz : · decressed RighT · MSTER sunnina · output 4ASTER iuMing · resistors · ou put · Swie
 - **Title block:** (164, 0)–(432, 310) mm: WBS · Matoc · Swz : · decressed RighT · output 4ASTER iuMing · resistors · Swilcnes · Sw1B · 57?o · citernj| · unming · into · #igh-Pass · Pass deoreated · er · his · Ieve| ccntrol rarde · conirol · P
 
-Every curve, box, word and wire group: [1977 - M470C - 470-04-010 - ADDI ONA EQUIPPED WITH CONTACTS (traced).json](../MECHANICAL/1977%20-%20M470C%20-%20470-04-010%20-%20ADDI%20ONA%20EQUIPPED%20WITH%20CONTACTS%20(traced).json) (the CAD file: `1977 - M470C - 470-04-010 - ADDI ONA EQUIPPED WITH CONTACTS (traced).dxf`).
+Every curve, box, word and wire group: [1977 - M470C - 470-04-010 - ADDI ONA EQUIPPED WITH CONTACTS (traced).json](../MECHANICAL/1977%20-%20M470C%20-%20470-04-010%20-%20ADDI%20ONA%20EQUIPPED%20WITH%20CONTACTS%20%28traced%29.json) (the CAD file: `1977 - M470C - 470-04-010 - ADDI ONA EQUIPPED WITH CONTACTS (traced).dxf`).
 
 ## Full text
 
