@@ -1,0 +1,83 @@
+{
+ "drawing": "Modules/INPUT-PRE-AMPS/M470C/MANUALS/1977 - M470C - Input Module.pdf",
+ "page": 14,
+ "version": 1,
+ "trace": "_traces/0204ff4fda978772-p14.svg",
+ "sheet": {
+  "number": "",
+  "title": "",
+  "dtype": "",
+  "type": "",
+  "size": "B",
+  "size_assumed": true,
+  "rotate": 0,
+  "px": [1534, 2000],
+  "mm": [331.2, 431.8],
+  "mm_per_px": 0.2159,
+  "facts": {"page": "14", "pages": "19"}
+ },
+ "units": "mm; x right, y up from the sheet's lower-left corner (as in the (traced).dxf)",
+ "bbox": [9.7, 6.7, 331.2, 431.8],
+ "outlines": {
+  "line": {"rings": 38, "straight": {"n": 1019, "mm": 3387.7}, "curved": {"n": 113, "mm": 186.6}},
+  "text": {"rings": 305, "straight": {"n": 2602, "mm": 3097.4}, "curved": {"n": 675, "mm": 1065.6}},
+  "tb": {"rings": 6, "straight": {"n": 34, "mm": 28.9}, "curved": {"n": 6, "mm": 10.3}}
+ },
+ "circles": [],
+ "boxes": [],
+ "text": {
+  "words": 37,
+  "lines": [
+   {"mm": [24.2, 411.3, 140.8, 419.0], "text": "WAAD-BECK Systems LTD"},
+   {"mm": [141.0, 363.8, 184.2, 372.4], "text": "PARIS_LISI"},
+   {"mm": [125.2, 351.5, 146.8, 358.9], "text": "M470c"},
+   {"mm": [149.2, 350.2, 200.1, 359.2], "text": "InPUt MODULE"},
+   {"mm": [35.4, 323.0, 107.1, 331.6], "text": "PARI DESCRIPIION"},
+   {"mm": [173.8, 324.9, 187.2, 331.4], "text": "MFG"},
+   {"mm": [231.0, 324.9, 244.0, 331.4], "text": "MFG"},
+   {"mm": [247.2, 323.9, 292.8, 332.0], "text": "PART NUMBER"},
+   {"mm": [36.3, 309.8, 44.9, 317.5], "text": "21"},
+   {"mm": [60.0, 308.3, 134.9, 318.6], "text": "Integrated circuit"},
+   {"mm": [173.8, 310.9, 207.3, 317.9], "text": "Nationa ]"},
+   {"mm": [231.0, 310.9, 250.0, 318.6], "text": "LF356"},
+   {"mm": [36.3, 303.3, 45.3, 311.0], "text": "22"},
+   {"mm": [230.8, 302.0, 250.2, 312.4], "text": "L2O1"},
+   {"mm": [36.3, 297.3, 45.3, 304.3], "text": "23"},
+   {"mm": [36.7, 291.0, 44.9, 297.5], "text": "24"},
+   {"mm": [36.3, 283.3, 46.0, 290.9], "text": "25"},
+   {"mm": [36.7, 108.0, 127.8, 116.1], "text": "WBS recommends the us e"},
+   {"mm": [130.4, 107.5, 233.4, 117.6], "text": "of replacement parts made"},
+   {"mm": [236.0, 108.4, 245.7, 116.1], "text": "by"},
+   {"mm": [248.3, 108.4, 301.8, 117.0], "text": "the specified"},
+   {"mm": [110.3, 100.4, 220.9, 110.5], "text": "continued optimum equipment"},
+   {"mm": [36.7, 101.5, 107.5, 108.4], "text": "manufacturers for"},
+   {"mm": [223.7, 101.5, 269.9, 109.6], "text": "performance"},
+   {"mm": [156.5, 6.0, 169.9, 13.0], "text": "4 -8"}
+  ]
+ },
+ "title_block": {
+  "mm": [17.7, 99.3, 128.6, 427.5],
+  "from": "title-block words (training set)",
+  "text": [
+   "WAAD-BECK Systems LTD",
+   "PARI DESCRIPIION",
+   "21",
+   "Integrated circuit",
+   "22",
+   "23",
+   "24",
+   "25",
+   "WBS recommends the us e",
+   "manufacturers for"
+  ]
+ },
+ "dots": [{"c": [242.1, 201.0], "r": 0.7, "lines": 0}],
+ "summary": [
+  "- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1534 × 2000 px traced (0.216 mm/px)",
+  "- **Ink extent:** 10–331 mm across, 7–432 mm up",
+  "- **Outlines:** line 38 rings, 1,019 straight (3,388 mm) / 113 curved (187 mm); text 305 rings, 2,602 straight (3,097 mm) / 675 curved (1,066 mm); tb 6 rings, 34 straight (28.9 mm) / 6 curved (10.3 mm)",
+  "- **Dots (junctions):** 1",
+  "- **Words (OCR):** 37 in 25 lines: WAAD-BECK Systems LTD · PARIS_LISI · M470c · InPUt MODULE · PARI DESCRIPIION · MFG · MFG · PART NUMBER · 21 · Integrated circuit · Nationa ] · LF356",
+  "- **Title block:** (18, 99)–(129, 428) mm: WAAD-BECK Systems LTD · PARI DESCRIPIION · 21 · Integrated circuit · 22 · 23 · 24 · 25 · WBS recommends the us e · manufacturers for"
+ ]
+}

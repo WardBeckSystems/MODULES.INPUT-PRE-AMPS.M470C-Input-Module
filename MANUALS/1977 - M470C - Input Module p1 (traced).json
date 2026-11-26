@@ -1,0 +1,53 @@
+{
+ "drawing": "Modules/INPUT-PRE-AMPS/M470C/MANUALS/1977 - M470C - Input Module.pdf",
+ "page": 1,
+ "version": 1,
+ "trace": "_traces/0204ff4fda978772-p1.svg",
+ "sheet": {
+  "number": "",
+  "title": "",
+  "dtype": "",
+  "type": "",
+  "size": "B",
+  "size_assumed": true,
+  "rotate": 0,
+  "px": [1534, 2000],
+  "mm": [331.2, 431.8],
+  "mm_per_px": 0.2159,
+  "facts": {"page": "1", "pages": "19"}
+ },
+ "units": "mm; x right, y up from the sheet's lower-left corner (as in the (traced).dxf)",
+ "bbox": [1.9, 4.7, 311.8, 424.2],
+ "outlines": {
+  "line": {"rings": 26, "straight": {"n": 758, "mm": 2684.1}, "curved": {"n": 79, "mm": 123.2}},
+  "text": {"rings": 134, "straight": {"n": 1749, "mm": 2276.8}, "curved": {"n": 409, "mm": 689.0}},
+  "tb": {"rings": 3, "straight": {"n": 104, "mm": 296.8}, "curved": {"n": 8, "mm": 15.9}}
+ },
+ "circles": [],
+ "boxes": [],
+ "text": {
+  "words": 11,
+  "lines": [
+   {"mm": [115.3, 407.2, 281.3, 417.7], "text": "WAAD-BECK SYSTEMS LTD"},
+   {"mm": [45.8, 398.3, 280.5, 413.0], "text": "WBS 841 PAOGRESS AVENUE, SCARBOAOUGH, ONTARIO M1H 2x4"},
+   {"mm": [115.3, 395.3, 168.8, 400.6], "text": "Telex: 065-25399"},
+   {"mm": [204.7, 395.5, 280.9, 402.5], "text": "TELEPHONE: 418/438-6550"},
+   {"mm": [138.4, 242.0, 195.8, 255.7], "text": "M470c"},
+   {"mm": [138.8, 229.9, 195.0, 238.1], "text": "INPUT MODULE"},
+   {"mm": [74.5, 3.9, 251.5, 10.4], "text": "DESIGN ANO MANUFACTURE Of PAOFESSIONAL AUDIO EQUPMENT"}
+  ]
+ },
+ "title_block": {
+  "mm": [39.2, 389.7, 261.1, 426.4],
+  "from": "title-block words (training set)",
+  "text": ["WAAD-BECK SYSTEMS LTD", "WBS 841 PAOGRESS AVENUE, SCARBOAOUGH, ONTARIO M1H 2x4", "Telex: 065-25399", "TELEPHONE: 418/438-6550"]
+ },
+ "dots": [],
+ "summary": [
+  "- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1534 × 2000 px traced (0.216 mm/px)",
+  "- **Ink extent:** 2–312 mm across, 5–424 mm up",
+  "- **Outlines:** line 26 rings, 758 straight (2,684 mm) / 79 curved (123 mm); text 134 rings, 1,749 straight (2,277 mm) / 409 curved (689 mm); tb 3 rings, 104 straight (297 mm) / 8 curved (15.9 mm)",
+  "- **Words (OCR):** 11 in 7 lines: WAAD-BECK SYSTEMS LTD · WBS 841 PAOGRESS AVENUE, SCARBOAOUGH, ONTARIO M1H 2x4 · Telex: 065-25399 · TELEPHONE: 418/438-6550 · M470c · INPUT MODULE · DESIGN ANO MANUFACTURE Of PAOFESSIONAL AUDIO EQUPMENT",
+  "- **Title block:** (39, 390)–(261, 426) mm: WAAD-BECK SYSTEMS LTD · WBS 841 PAOGRESS AVENUE, SCARBOAOUGH, ONTARIO M1H 2x4 · Telex: 065-25399 · TELEPHONE: 418/438-6550"
+ ]
+}

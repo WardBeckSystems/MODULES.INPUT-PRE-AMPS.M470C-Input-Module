@@ -1,0 +1,62 @@
+{
+ "drawing": "Modules/INPUT-PRE-AMPS/M470C/MANUALS/1977 - M470C - Input Module (2).pdf",
+ "page": 14,
+ "version": 1,
+ "trace": "_traces/956b95813ba5d580-p14.svg",
+ "sheet": {
+  "number": "",
+  "title": "",
+  "dtype": "",
+  "type": "",
+  "size": "B",
+  "size_assumed": true,
+  "rotate": 0,
+  "px": [1534, 2000],
+  "mm": [331.2, 431.8],
+  "mm_per_px": 0.2159,
+  "facts": {"page": "14", "pages": "19"}
+ },
+ "units": "mm; x right, y up from the sheet's lower-left corner (as in the (traced).dxf)",
+ "bbox": [9.7, 6.7, 331.2, 431.8],
+ "outlines": {
+  "line": {"rings": 148, "straight": {"n": 2009, "mm": 4616.7}, "curved": {"n": 348, "mm": 543.3}},
+  "text": {"rings": 214, "straight": {"n": 1697, "mm": 1933.2}, "curved": {"n": 459, "mm": 734.8}}
+ },
+ "circles": [],
+ "boxes": [{"mm": [77.9, 294.3, 80.3, 296.6], "w": 2.4, "h": 2.4, "from": "ring"}],
+ "text": {
+  "words": 52,
+  "lines": [
+   {"mm": [82.7, 411.9, 143.1, 417.2], "text": "SYS TEMS LTC."},
+   {"mm": [142.7, 361.8, 183.3, 370.0], "text": "!.lli..L!:.!.ll"},
+   {"mm": [126.9, 351.1, 142.5, 357.1], "text": ")114 70"},
+   {"mm": [155.7, 351.1, 201.9, 357.1], "text": "NPUT MOOULE"},
+   {"mm": [37.8, 324.1, 105.6, 330.3], "text": "PART DESCRIPTION"},
+   {"mm": [62.4, 310.0, 134.5, 316.5], "text": "Inte!rated Circuit"},
+   {"mm": [232.7, 310.7, 251.1, 316.7], "text": "LF3S6"},
+   {"mm": [232.7, 301.8, 248.5, 310.7], "text": "l\"l'\""},
+   {"mm": [37.8, 297.1, 45.1, 303.1], "text": "Z3"},
+   {"mm": [37.8, 290.2, 46.0, 296.6], "text": "Z4"},
+   {"mm": [38.2, 283.5, 46.9, 289.7], "text": "ZS"},
+   {"mm": [37.8, 108.4, 45.6, 114.9], "text": "W8"},
+   {"mm": [58.5, 108.4, 64.8, 114.9], "text": "ec"},
+   {"mm": [83.1, 108.4, 154.8, 114.9], "text": "nds the us of ep"},
+   {"mm": [168.2, 108.4, 288.4, 114.9], "text": "eee nt pa ts ad ll! by th spe ff"},
+   {"mm": [37.8, 101.5, 56.3, 108.0], "text": "lllin uf"},
+   {"mm": [75.1, 101.5, 267.9, 108.0], "text": "rll!r for ont nu lI!d ptillull II! qu pmll!nt pu: or nce"},
+   {"mm": [275.1, 64.3, 295.8, 73.2], "text": "ps"},
+   {"mm": [263.6, 53.1, 285.2, 64.4], "text": "BS"},
+   {"mm": [241.4, 30.9, 259.7, 38.1], "text": "tp"},
+   {"mm": [234.5, 24.0, 255.2, 30.9], "text": "ht"}
+  ]
+ },
+ "dots": [{"c": [242.1, 201.0], "r": 0.7, "lines": 0}],
+ "summary": [
+  "- **Sheet:** drawing, size B (assumed) 331 × 432 mm, 1534 × 2000 px traced (0.216 mm/px)",
+  "- **Ink extent:** 10–331 mm across, 7–432 mm up",
+  "- **Outlines:** line 148 rings, 2,009 straight (4,617 mm) / 348 curved (543 mm); text 214 rings, 1,697 straight (1,933 mm) / 459 curved (735 mm)",
+  "- **Closed boxes:** 1",
+  "- **Dots (junctions):** 1",
+  "- **Words (OCR):** 52 in 21 lines: SYS TEMS LTC. · !.lli..L!:.!.ll · )114 70 · NPUT MOOULE · PART DESCRIPTION · Inte!rated Circuit · LF3S6 · l\"l'\" · Z3 · Z4 · ZS · W8"
+ ]
+}
