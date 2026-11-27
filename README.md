@@ -138,98 +138,107 @@ Not on Google Drive yet: `M470C - RTO-144 Connections.pdf`
 
 ## RTO-144 pinout
 
-3 contacts, 22 contacts (P1), 22 contacts (P2). Every contact, with where it was read: [`RTO.json`](RTO.json).
+Read from 1 pinout picture (each its own `.pinout.json` beside it); the RTO-144 sheet agrees on 50 of 52 contacts; 2 to check (`conflicts`). Every contact, with where it was read: [`RTO.json`](RTO.json). How a picture becomes this table: [the pinout decision tree](https://github.com/WardBeckSystems/WBSps.ca/blob/main/2026/Engineering/PINOUTS.md).
 
-| Pin | Signal | Kind | Pair | Confidence |
+**To check:**
+
+- disagree P2-5: kept ATT OUT (out); RTO-144 sheet says FADER-RETURN + (in)
+- disagree P2-E: kept ATT OUT (out); RTO-144 sheet says FADER-RETURN - (in)
+
+**Inserts:** EQUALIZER INSERT: EQUAL OUT → EQUAL IN
+
+| Pin | Signal | Kind | Port | Confidence |
 |---|---|---|---|---|
-| 1 | M2 OUT | out | A3 + | high |
-| 1 | LINE IN | in | A1 + | high |
-| 2 | SUB OUT | out |  | medium |
-| 2 |  | unread |  | low |
-| 3 | OUTPUT SIGNAL OF THE BOOSTER AMPLIFIER | out |  | medium |
-| 3 | SUB OUT | out |  | medium |
-| 3 | DIRECT OUT | out | A4 + | high |
-| 4 | SUB | other |  | medium |
-| 4 | SHIELD | ground |  | medium |
-| 5 | MASTER OUT | out |  | medium |
-| 5 | FADER RETURN | in | B4 + | high |
-| 6 | SUB OUT | out |  | medium |
-| 6 | INSERT RETURN | in | B2 + | high |
-| 7 | SUB OUT | out |  | medium |
-| 7 | CH ON SWITCH OUT | control | B3 + | high |
-| 8 | SUB OUT | out |  | medium |
-| 8 | INSERT OUT | out | B1 + | high |
-| 9 | AUX | other |  | medium |
-| 9 | NC | nc |  | medium |
-| 10 | AUX | other |  | medium |
-| 10 | MASTER CTL | control |  | medium |
-| 11 | AUX OUT | out |  | medium |
-| 11 | SUB 6 CTL | control |  | medium |
-| 12 | AUX OUT | out |  | medium |
-| 12 | SUB CTL | control |  | medium |
-| 13 | PFL | audio |  | medium |
-| 13 | SUB CTL | control |  | medium |
-| 14 | SOLO | audio |  | medium |
-| 14 | MASTER CTL | control |  | medium |
-| 15 | NC | nc |  | medium |
-| 16 | NC | nc |  | medium |
-| 16 | CTL | control |  | medium |
-| 17 | NC | nc |  | medium |
-| 17 | MIC 2 MUTE CTL | control |  | medium |
-| 18 | NC | nc |  | medium |
-| 18 | COMMON | ground |  | high |
-| 19 | MIC IN 1 | in | A2 + | high |
-| 19 | -25 V | power |  | high |
-| 20 | MIC | in |  | medium |
-| 20 | COMMON | ground |  | high |
-| 21 | MIC SHIELD | ground |  | medium |
-| 21 | +25 V | power |  | high |
-| 22 | EQUAL N | other |  | medium |
-| 22 | CHASSIS | ground |  | high |
-| A | M2 OUT | out | A3 - | high |
-| A | LINE IN | in | A1 - | high |
-| B | SUB OUT | out |  | medium |
-| C | SUB OUT | out |  | medium |
-| C | DIRECT OUT | out | A4 - | high |
-| D | SUB OUT | out |  | medium |
-| E | MASTER OUT | out |  | medium |
-| E | FADER RETURN | in | B4 - | high |
-| F | SUB OUT | out |  | medium |
-| F | INSERT RETURN | in | B2 - | high |
-| H | SUB OUT | out |  | medium |
-| H | CH ON SWITCH OUT | control | B3 - | high |
-| J | SUB OUT | out |  | medium |
-| J | INSERT OUT | out | B1 - | high |
-| K | AUX 4 OUT | out |  | medium |
-| K | NC | nc |  | medium |
-| L | AUX OUT | out |  | medium |
-| L | MASTER CTL | control |  | medium |
-| M | AUX 2 OUT | out |  | medium |
-| M | SUB 5 CTL | control |  | medium |
-| N | AUX | other |  | medium |
-| N | SUB 3 CTL | control |  | medium |
-| P | PFL | audio |  | medium |
-| P | SUB CTL | control |  | medium |
-| R | SOLO | audio |  | medium |
-| R | SUB CTL COM | ground |  | medium |
-| S | NC | nc |  | medium |
-| S | CH ON AUX | control |  | medium |
-| T | NC | nc |  | medium |
-| T | LINE MUTE CTL | control |  | medium |
-| U | NC | nc |  | medium |
-| U | MUTE CTL | control |  | medium |
-| V | NC | nc |  | medium |
-| V | SOLO CTL | control |  | medium |
-| W | MIC IN 1 | in | A2 - | high |
-| W | CH ON CTL COM | ground |  | medium |
-| X | MIC | in |  | medium |
-| X | MIC/LINE CTL COM | ground |  | medium |
-| Y | MIC SHIELD | ground |  | medium |
-| Y | +24 V | power |  | high |
-| Z | EQUAL OUT | out |  | medium |
-| Z | CH ON LAMP | control |  | medium |
+| P1-1 | MASTER 2 OUT | out | MASTER 2 OUT | high |
+| P1-2 | SUB 6 OUT | out | SUB 6 OUT | high |
+| P1-3 | SUB 4 OUT | out | SUB 4 OUT | high |
+| P1-4 | SUB 2 OUT | out | SUB 2 OUT | high |
+| P1-5 | MASTER 1 OUT | out | MASTER 1 OUT | high |
+| P1-6 | SUB 5 OUT | out | SUB 5 OUT | high |
+| P1-7 | SUB 3 OUT | out | SUB 3 OUT | high |
+| P1-8 | SUB 1 OUT | out | SUB 1 OUT | high |
+| P1-9 | AUX 4 OUT | out | AUX 4 OUT | high |
+| P1-10 | AUX 3 OUT | out | AUX 3 OUT | high |
+| P1-11 | AUX 2 OUT | out | AUX 2 OUT | high |
+| P1-12 | AUX 1 OUT | out | AUX 1 OUT | high |
+| P1-13 | PFL | bus | PFL | high |
+| P1-14 | SOLO | bus | SOLO | high |
+| P1-15 | N/C | nc |  | high |
+| P1-16 | N/C | nc |  | high |
+| P1-17 | N/C | nc |  | high |
+| P1-18 | N/C | nc |  | high |
+| P1-19 | MIC 1 | in | MIC 1 | high |
+| P1-20 | MIC 2 | in | MIC 2 | high |
+| P1-21 | MIC SHIELD | shield | shield | high |
+| P1-22 | EQUAL IN | insert_return | EQUAL IN | high |
+| P1-A | MASTER 2 OUT | out | MASTER 2 OUT | high |
+| P1-B | SUB 6 OUT | out | SUB 6 OUT | high |
+| P1-C | SUB 4 OUT | out | SUB 4 OUT | high |
+| P1-D | SUB 2 OUT | out | SUB 2 OUT | high |
+| P1-E | MASTER 1 OUT | out | MASTER 1 OUT | high |
+| P1-F | SUB 5 OUT | out | SUB 5 OUT | high |
+| P1-H | SUB 3 OUT | out | SUB 3 OUT | high |
+| P1-J | SUB 1 OUT | out | SUB 1 OUT | high |
+| P1-K | AUX 4 OUT | out | AUX 4 OUT | high |
+| P1-L | AUX 3 OUT | out | AUX 3 OUT | high |
+| P1-M | AUX 2 OUT | out | AUX 2 OUT | high |
+| P1-N | AUX 1 OUT | out | AUX 1 OUT | high |
+| P1-P | PFL | bus | PFL | high |
+| P1-R | SOLO | bus | SOLO | high |
+| P1-S | N/C | nc |  | high |
+| P1-T | N/C | nc |  | high |
+| P1-U | N/C | nc |  | high |
+| P1-V | N/C | nc |  | high |
+| P1-W | MIC 1 | in | MIC 1 | high |
+| P1-X | MIC 2 | in | MIC 2 | high |
+| P1-Y | MIC SHIELD | shield | shield | high |
+| P1-Z | EQUAL OUT | insert_send | EQUAL OUT | high |
+| P2-1 | LINE IN | in | LINE IN | high |
+| P2-2 | N/C | nc |  | high |
+| P2-3 | DIRECT OUT | out | DIRECT OUT | high |
+| P2-4 | SHIELD | shield | shield | high |
+| P2-5 | ATT OUT | out | ATT OUT | high |
+| P2-6 | CH ON IN | control_in | CH ON IN | high |
+| P2-7 | CH ON OUT | control_out | CH ON OUT | high |
+| P2-8 | PRE OUT | out | PRE OUT | high |
+| P2-9 | N/C | nc |  | high |
+| P2-10 | MASTER 2 CTL | control_in | MASTER 2 CTL | high |
+| P2-11 | SUB 6 CTL | control_in | SUB 6 CTL | high |
+| P2-12 | SUB 4 CTL | control_in | SUB 4 CTL | high |
+| P2-13 | SUB 2 CTL | control_in | SUB 2 CTL | high |
+| P2-14 | MASTER CTL COM | ground |  | high |
+| P2-15 | CH ON AUX CONTACT | control_out | CH ON AUX CONTACT | high |
+| P2-16 | CTL COM | ground |  | high |
+| P2-17 | MIC 2 MUTE CTL | control_in | MIC 2 MUTE CTL | high |
+| P2-18 | CTL COM | ground |  | high |
+| P2-19 | -25 V | power |  | high |
+| P2-20 | 25V COM | ground |  | high |
+| P2-21 | +25 V | power |  | high |
+| P2-22 | CHASSIS | ground |  | high |
+| P2-A | LINE IN | in | LINE IN | high |
+| P2-B | N/C | nc |  | high |
+| P2-C | DIRECT OUT | out | DIRECT OUT | high |
+| P2-D | SHIELD | shield | shield | high |
+| P2-E | ATT OUT | out | ATT OUT | high |
+| P2-F | CH ON IN | control_in | CH ON IN | high |
+| P2-H | CH ON OUT | control_out | CH ON OUT | high |
+| P2-J | PRE OUT | out | PRE OUT | high |
+| P2-K | N/C | nc |  | high |
+| P2-L | MASTER 1 CTL | control_in | MASTER 1 CTL | high |
+| P2-M | SUB 5 CTL | control_in | SUB 5 CTL | high |
+| P2-N | SUB 3 CTL | control_in | SUB 3 CTL | high |
+| P2-P | SUB 1 CTL | control_in | SUB 1 CTL | high |
+| P2-R | SUB CTL COM | ground |  | high |
+| P2-S | CH ON AUX CONTACT | control_out | CH ON AUX CONTACT | high |
+| P2-T | LINE MUTE CTL | control_in | LINE MUTE CTL | high |
+| P2-U | MIC 1 MUTE CTL | control_in | MIC 1 MUTE CTL | high |
+| P2-V | SOLO CTL | control_in | SOLO CTL | high |
+| P2-W | CH ON CTL COM | ground |  | high |
+| P2-X | MIC/LINE CTL COM | ground |  | high |
+| P2-Y | +24 V | power |  | high |
+| P2-Z | CH ON LAMP | control_out | CH ON LAMP | high |
 
-**Straps:** CH ON LAMP: JMP.Z.W · CH ON GND : JMP.2 · 24V Jumper: JMP.Y.21 · CH ON GND : JMP.20.18 · Insert +: JMP.8.6 · Insert -: JMP.J.F · Fader +: JMP.7.5 · Fader - : JMP.H.E · EQ BYPASS: JMP.Z.22
+**Straps:** JMP.Z.W: P2-Z P2-W · JMP.2: P2-W P2-18 · JMP.Y.21: P2-Y P2-21 · JMP.20.18: P2-20 P2-18 · JMP.8.6: P2-8 P2-6 · JMP.J.F: P2-J P2-F · JMP.7.5: P2-7 P2-5 · JMP.H.E: P2-H P2-E · JMP.Z.22: P1-Z P1-22
 
 ## Manuals and documents
 
