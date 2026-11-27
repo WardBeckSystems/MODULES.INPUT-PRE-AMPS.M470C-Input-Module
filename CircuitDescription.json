@@ -1,0 +1,77 @@
+{
+ "module": "M470C",
+ "source": {
+  "file": "MANUALS/1977 - M470C - Input Module (2).pdf",
+  "pages": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ]
+ },
+ "ocr_quality": 0.78,
+ "read": "OCR of the manual's circuit description; check against the pages",
+ "sections": [
+  {
+   "heading": "H470C INPUT MODULE",
+   "paragraphs": [
+    "DIRECT Output The output signal of the booster amplifier feeds the DIRECT output a t connector Pl, pins 3/C. This output is designed to operate into abridging load of 10 1: ohms or higher. The nominal level of the DJRECT output is 0 dBm.",
+    "HASTER, SUBHASTER and AUXILIARY Outputs The booster amp l t rte r also provides the feeds for the left and right HASTER and SUBHASTER outputs via PANs....i tch SII13 and PAN control RB4 through R8J. Additional feeds are supplied to the SOLO output via SWll and to the four AUXILIARY outputs....hen in the POSTFADE mode. With the exception of the DIRECT output, all outputs are designed a s 30 1: ohm current sources, to operate into zero impedance summing nodes. Each summing output is equipped....i th its own assignments....i tch.",
+    "Control Functions DC control and logic muting functions are provided through the HIC/L1NE INPUT Selector switchu and the CHANNEL ON switch to facilitate studio mute control functions. to minimize system transients, the dc current in these circuits should be limited to I mAo Further control contacts are provided on the SOLOs....i tch SWU as well as on all SUBHASTER and MASTER assignment switches.",
+    "Power Supply Dec o up l i nq Power sup ply dec oupling is provided by OlD, 011 and their assoc ia ted components. The decoup ling ne twc r k reduces the module voltage tot lO volts from the nominal sup ply voltage of:!:l5 volts.."
+   ]
+  },
+  {
+   "heading": "FREQUENCY IN HERTZ",
+   "paragraphs": [
+    "WAR D-B E CK SYSTEMS L T C."
+   ]
+  },
+  {
+   "heading": "K470 C INPUT MODULE",
+   "paragraphs": [
+    "PART DESCRIPTION.FG KFG PART NUMBER C1 C'Pl~ Ito r 0.047 uF ase t cc C092 -MC-47311 02 I u F/3 S V Kellet T39 DBI 0 5H035 A$ 03 330 pF Ph! 1i ps 2222 -630 -03331 C4 220 pF 2222 -630 -0322 1 OS 330 pF 2222 -6 30 -0333 1 CO 47 pF 2 2 2 2-6 38 -704 19 C7 22 uF!2SY K e~ et T39D022~M02SAS",
+    "cs 2.7 pF Philips 2222-638 -032 78 C1.15 0 uF/6 Y Kelle t T39 DEI5 7110 0 6A$ Cl1 3.9 p F Philips 2222 -638 -09398 C12 33 uF IlO Y ee.. e t 13 900336110 10AS C13 0.22 uF /lOO V Ph!l1p s 344CHA220K C1' 0.1 uFIlOO Y 344CHAI00K C15 4.7 u F/l O Y Kell et T390B475HOI0A$ C1.6ele;e C17 22 pF UU -638 -58229 C18 150 p F 2222-638-7 015 1 m 4.7 pF UU -638 -094 78 02.22 p F 2222-638-5822 9 C2I 220 u~ /lO Y xeee t T3 9 0F 2 2? MOI OA5",
+    "C23 0.022 uF as e tcc C092 - KC-223\" 02 ' delete C25 0.0 22 u F Aseleo (092KC-223\" C26 1 ur/35 V Kelle t T3908105\" 03 5A$ C27 220 pF Philips 2222 -630 -03221 C28 33 uF !10 V Ke~et T390033~MOIOA$",
+    "C30 4.7 pF Philips 2222 -63 8-09 478",
+    "03 1",
+    "C32 68 uF!6 V K e~ e t T 390D68~HOO6A5",
+    "C34 s t ~ me ns 8 4 13 1 3A5226 - Z",
+    "22 uF!2S V",
+    "f!lli....!:.ill"
+   ]
+  },
+  {
+   "heading": "M47 0C INPUT MOOULE",
+   "paragraphs": [
+    "PART OESCRIPTION \" FG MFG PART NUMBER C36 C.p.~1 tor 22 uF! 2 5 V s r eee ns B 41313 -~5226 -Z",
+    "CR! Oiod: Motorola 1N400 3",
+    "F.l rc llll d HO!orol.",
+    "l N~ I 4B"
+   ]
+  },
+  {
+   "heading": "CRIO",
+   "paragraphs": [
+    "CRll"
+   ]
+  },
+  {
+   "heading": "CRI 5",
+   "paragraphs": [
+    "LED, yellow fa!rclll1d Fl Vl17 FlV4JO DSJ light bulb Sch.dow L22, 28 V",
+    "QI Tran !1sto r N.!1on.l 2N4'0 1"
+   ]
+  },
+  {
+   "heading": "PN3569",
+   "paragraphs": [
+    "OS PN364S",
+    "\"OS 2N2102",
+    "Q7 2N4037",
+    "2N2l02"
+   ]
+  }
+ ]
+}

@@ -13,6 +13,103 @@ Ward-Beck Systems M470C, 1977|10. Wiki page: [M470C on WBSps.ca](https://wardbec
 | [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 5 |
 | [OCR/](OCR/) | the note of every file: date, origin, title block, OCR text | 21 |
 
+<!-- module data: tools/module_specs.py, tools/forum_quotes.py -->
+
+**On the WBSps forum (2006|39 - 2014|47):** [5 topics](FORUM.md): what owners and technicians said about it.
+
+## Specifications
+
+From the technical data sheet: [1977 - M470C - P002 - 1-1.jpg](MANUALS/1977%20-%20M470C%20-%20P002%20-%201-1.jpg) page 1 (read by OCR; check against the page). As data: [`Specifications.json`](Specifications.json).
+
+| | |
+|---|---|
+| **Input sensitivities** |  |
+| &nbsp;&nbsp;Line | Mic Pad Mic: 10 +20 dBm (ref 600 ohm -40 10 dBm (ref 150 ohm 2: source -60 to -30 dBm (ref 150 ohm ±0.25 dB from 30 Hz to 20 kHz. 125 dBm EIN at maximum sensitivity (20 Hz to 20 kHz) 75 dB S/N ratio or better for Tine sensitivities from to +20 dBm |
+| **Noise** |  |
+| &nbsp;&nbsp;Harmonic distortion | Less than 0.358 from 30 Hz to 15 kHz at +24 dBm output or Ies s Less than 0.1&quot; at 1 kHz at +24 dBm output. |
+| **Source impedances** | Line Mic 150/600 ohms ba Tanced/unba lanced 150 ohms bajanced/unbalanced |
+| **Input impedances** | Line Mic 30,000 ohms 750 ohms minimum. |
+| **Output impedance** | Less than 100 ohms at insert and direct outputs |
+| **Load impedance** | 600 ohms balanced (at insertion point) 10k ohms balanced (at direct output) |
+| **Output level** | dBm nomina 1, +26 dBm maximum. |
+| **Phasing** | Input and output termina is designated by numbers are in Phase |
+| **Power requirements** | +25 volts dc, 20 ma nomina], 80 MA maximum |
+| **Ambient temperature** | to 60 degrees Celsius wide 14.15&quot; high hm} 6.5 &quot; deep {4i mm X 360 mm 165 |
+
+## Circuit description
+
+From [1977 - M470C - Input Module (2).pdf](MANUALS/1977%20-%20M470C%20-%20Input%20Module%20(2).pdf) pages 5-9 (read by OCR; check against the pages). As data: [`CircuitDescription.json`](CircuitDescription.json).
+
+<details><summary>Read it</summary>
+
+**H470C INPUT MODULE**
+
+DIRECT Output The output signal of the booster amplifier feeds the DIRECT output a t connector Pl, pins 3/C. This output is designed to operate into abridging load of 10 1: ohms or higher. The nominal level of the DJRECT output is 0 dBm.
+
+HASTER, SUBHASTER and AUXILIARY Outputs The booster amp l t rte r also provides the feeds for the left and right HASTER and SUBHASTER outputs via PANs....i tch SII13 and PAN control RB4 through R8J. Additional feeds are supplied to the SOLO output via SWll and to the four AUXILIARY outputs....hen in the POSTFADE mode. With the exception of the DIRECT output, all outputs are designed a s 30 1: ohm current sources, to operate into zero impedance summing nodes. Each summing output is equipped....i th its own assignments....i tch.
+
+Control Functions DC control and logic muting functions are provided through the HIC/L1NE INPUT Selector switchu and the CHANNEL ON switch to facilitate studio mute control functions. to minimize system transients, the dc current in these circuits should be limited to I mAo Further control contacts are provided on the SOLOs....i tch SWU as well as on all SUBHASTER and MASTER assignment switches.
+
+Power Supply Dec o up l i nq Power sup ply dec oupling is provided by OlD, 011 and their assoc ia ted components. The decoup ling ne twc r k reduces the module voltage tot lO volts from the nominal sup ply voltage of:!:l5 volts..
+
+**FREQUENCY IN HERTZ**
+
+WAR D-B E CK SYSTEMS L T C.
+
+**K470 C INPUT MODULE**
+
+PART DESCRIPTION.FG KFG PART NUMBER C1 C'Pl~ Ito r 0.047 uF ase t cc C092 -MC-47311 02 I u F/3 S V Kellet T39 DBI 0 5H035 A$ 03 330 pF Ph! 1i ps 2222 -630 -03331 C4 220 pF 2222 -630 -0322 1 OS 330 pF 2222 -6 30 -0333 1 CO 47 pF 2 2 2 2-6 38 -704 19 C7 22 uF!2SY K e~ et T39D022~M02SAS
+
+cs 2.7 pF Philips 2222-638 -032 78 C1.15 0 uF/6 Y Kelle t T39 DEI5 7110 0 6A$ Cl1 3.9 p F Philips 2222 -638 -09398 C12 33 uF IlO Y ee.. e t 13 900336110 10AS C13 0.22 uF /lOO V Ph!l1p s 344CHA220K C1' 0.1 uFIlOO Y 344CHAI00K C15 4.7 u F/l O Y Kell et T390B475HOI0A$ C1.6ele;e C17 22 pF UU -638 -58229 C18 150 p F 2222-638-7 015 1 m 4.7 pF UU -638 -094 78 02.22 p F 2222-638-5822 9 C2I 220 u~ /lO Y xeee t T3 9 0F 2 2? MOI OA5
+
+C23 0.022 uF as e tcc C092 - KC-223&quot; 02 ' delete C25 0.0 22 u F Aseleo (092KC-223&quot; C26 1 ur/35 V Kelle t T3908105&quot; 03 5A$ C27 220 pF Philips 2222 -630 -03221 C28 33 uF !10 V Ke~et T390033~MOIOA$
+
+C30 4.7 pF Philips 2222 -63 8-09 478
+
+03 1
+
+C32 68 uF!6 V K e~ e t T 390D68~HOO6A5
+
+C34 s t ~ me ns 8 4 13 1 3A5226 - Z
+
+22 uF!2S V
+
+f!lli....!:.ill
+
+**M47 0C INPUT MOOULE**
+
+PART OESCRIPTION &quot; FG MFG PART NUMBER C36 C.p.~1 tor 22 uF! 2 5 V s r eee ns B 41313 -~5226 -Z
+
+CR! Oiod: Motorola 1N400 3
+
+F.l rc llll d HO!orol.
+
+l N~ I 4B
+
+**CRIO**
+
+CRll
+
+**CRI 5**
+
+LED, yellow fa!rclll1d Fl Vl17 FlV4JO DSJ light bulb Sch.dow L22, 28 V
+
+QI Tran !1sto r N.!1on.l 2N4'0 1
+
+**PN3569**
+
+OS PN364S
+
+&quot;OS 2N2102
+
+Q7 2N4037
+
+2N2l02
+
+</details>
+
+<!-- /module data -->
+
 ## Mechanical
 
 _Mechanical drawings: front panels, cover plates, metalwork and hardware (-03- drawings), AutoCAD files, each with its `(EXTRACTED).svg` vectors; `<module> - front panel.svg` is the front panel as vectors._

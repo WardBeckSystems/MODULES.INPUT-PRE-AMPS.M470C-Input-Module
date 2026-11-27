@@ -1,0 +1,232 @@
+{
+ "module": "M470C",
+ "title": "M4ZOC_INPUI_MODULE",
+ "source": {
+  "file": "MANUALS/1977 - M470C - P002 - 1-1.jpg",
+  "page": 1
+ },
+ "ocr_quality": 0.88,
+ "read": "OCR of the technical data sheet; usual OCR slips put right, the rest as read: check against the page",
+ "specifications": [
+  {
+   "name": "Input sensitivities",
+   "key": "input_sensitivity",
+   "text": "",
+   "items": [
+    {
+     "name": "Line",
+     "text": "Mic Pad Mic: 10 +20 dBm (ref 600 ohm -40 10 dBm (ref 150 ohm 2: source -60 to -30 dBm (ref 150 ohm ±0.25 dB from 30 Hz to 20 kHz. 125 dBm EIN at maximum sensitivity (20 Hz to 20 kHz) 75 dB S/N ratio or better for Tine sensitivities from to +20 dBm",
+     "quantities": [
+      {
+       "value": 20,
+       "unit": "dBm"
+      },
+      {
+       "value": 600,
+       "unit": "ohm"
+      },
+      {
+       "value": 10,
+       "unit": "dBm"
+      },
+      {
+       "value": 150,
+       "unit": "ohm"
+      },
+      {
+       "from": -60,
+       "to": -30,
+       "unit": "dBm"
+      },
+      {
+       "value": 150,
+       "unit": "ohm"
+      },
+      {
+       "value": 0.25,
+       "unit": "dB",
+       "tolerance": true
+      },
+      {
+       "value": 30,
+       "unit": "Hz"
+      },
+      {
+       "value": 20,
+       "unit": "kHz"
+      },
+      {
+       "value": 125,
+       "unit": "dBm"
+      },
+      {
+       "value": 20,
+       "unit": "Hz"
+      },
+      {
+       "value": 20,
+       "unit": "kHz"
+      },
+      {
+       "value": 75,
+       "unit": "dB"
+      },
+      {
+       "value": 20,
+       "unit": "dBm"
+      }
+     ],
+     "key": "line"
+    }
+   ]
+  },
+  {
+   "name": "Noise",
+   "key": "noise",
+   "text": "",
+   "items": [
+    {
+     "name": "Harmonic distortion",
+     "text": "Less than 0.358 from 30 Hz to 15 kHz at +24 dBm output or Ies s Less than 0.1\" at 1 kHz at +24 dBm output.",
+     "quantities": [
+      {
+       "value": 30,
+       "unit": "Hz"
+      },
+      {
+       "value": 15,
+       "unit": "kHz"
+      },
+      {
+       "value": 24,
+       "unit": "dBm"
+      },
+      {
+       "value": 0.1,
+       "unit": "\""
+      },
+      {
+       "value": 1,
+       "unit": "kHz"
+      },
+      {
+       "value": 24,
+       "unit": "dBm"
+      }
+     ],
+     "key": "harmonic_distortion"
+    }
+   ]
+  },
+  {
+   "name": "Source impedances",
+   "key": "source_impedance",
+   "text": "Line Mic 150/600 ohms ba Tanced/unba lanced 150 ohms bajanced/unbalanced",
+   "quantities": [
+    {
+     "value": 600,
+     "unit": "ohms"
+    },
+    {
+     "value": 150,
+     "unit": "ohms"
+    }
+   ]
+  },
+  {
+   "name": "Input impedances",
+   "key": "input_impedance",
+   "text": "Line Mic 30,000 ohms 750 ohms minimum.",
+   "quantities": [
+    {
+     "value": 30000,
+     "unit": "ohms"
+    },
+    {
+     "value": 750,
+     "unit": "ohms"
+    }
+   ]
+  },
+  {
+   "name": "Output impedance",
+   "key": "output_impedance",
+   "text": "Less than 100 ohms at insert and direct outputs",
+   "quantities": [
+    {
+     "value": 100,
+     "unit": "ohms"
+    }
+   ]
+  },
+  {
+   "name": "Load impedance",
+   "key": "load_impedance",
+   "text": "600 ohms balanced (at insertion point) 10k ohms balanced (at direct output)",
+   "quantities": [
+    {
+     "value": 600,
+     "unit": "ohms"
+    }
+   ]
+  },
+  {
+   "name": "Output level",
+   "key": "output_level",
+   "text": "dBm nomina 1, +26 dBm maximum.",
+   "quantities": [
+    {
+     "value": 26,
+     "unit": "dBm"
+    }
+   ]
+  },
+  {
+   "name": "Phasing",
+   "key": "phasing",
+   "text": "Input and output termina is designated by numbers are in Phase"
+  },
+  {
+   "name": "Power requirements",
+   "key": "power_requirement",
+   "text": "+25 volts dc, 20 ma nomina], 80 MA maximum",
+   "quantities": [
+    {
+     "value": 25,
+     "unit": "volts dc"
+    },
+    {
+     "value": 20,
+     "unit": "ma"
+    },
+    {
+     "value": 80,
+     "unit": "MA"
+    }
+   ]
+  },
+  {
+   "name": "Ambient temperature",
+   "key": "ambient_temperature",
+   "text": "to 60 degrees Celsius wide 14.15\" high hm} 6.5 \" deep {4i mm X 360 mm 165",
+   "quantities": [
+    {
+     "value": 60,
+     "unit": "degrees Celsius"
+    },
+    {
+     "value": 14.15,
+     "unit": "\""
+    },
+    {
+     "value": 6.5,
+     "unit": "\""
+    },
+    {
+     "value": 360,
+     "unit": "mm"
+    }
+   ]
+  }
+ ]
+}
