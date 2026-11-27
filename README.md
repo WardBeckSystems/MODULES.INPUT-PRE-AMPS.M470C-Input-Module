@@ -118,6 +118,15 @@ _Mechanical drawings: front panels, cover plates, metalwork and hardware (-03- d
 <tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKV09VS3FBdFphN3c/view?resourcekey=0-Y_UZKq6Z4NoJYbX0yk3zXw" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKV09VS3FBdFphN3c&resourcekey=0-Y_UZKq6Z4NoJYbX0yk3zXw" width="240" alt="1977 - M470C - 470-04-010 - ADDI ONA EQUIPPED WITH CONTACTS.jpg"></a><br><sub>1977|10 · 470-04-010 - ADDI ONA EQUIPPED WITH CONTACTS · <a href="MECHANICAL/1977%20-%20M470C%20-%20470-04-010%20-%20ADDI%20ONA%20EQUIPPED%20WITH%20CONTACTS%20(EXTRACTED).svg">vectors</a></sub></td></tr>
 </table>
 
+## 3-D model
+
+[`MECHANICAL/M470C.stl`](MECHANICAL/M470C.stl) (GitHub turns it in 3-D) · [view, change and generate it on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/2026/stl.html?m=M470C)
+
+- **Size:** 49.87 × 310.03 mm panel, 165 mm deep, 3.2 mm plate (the drawing sheet, taken as drawn 1:1)
+- **From the drawing:** 29 holes and cut-outs, 2 knobs (front panel: `MECHANICAL/M470C - front panel.svg`)
+- the drawn panel is 0.10 wide to high, the size 0.16: placed by its height
+- Made by `tools/module_models.py` (→ `MECHANICAL/M470C.model.json`) and `tools/stl/make_stl.mjs` in [WBSps.ca](https://github.com/WardBeckSystems/WBSps.ca); the site makes the same STL from the same JSON.
+
 ## Schematics
 
 _Electrical drawings: schematics (-02-), functional diagrams (-01-), component layouts (-06-), wiring (-09-), PCB files (.pcb .dsn), and beside each scan its `(EXTRACTED).svg`: the vectors traced from it._
