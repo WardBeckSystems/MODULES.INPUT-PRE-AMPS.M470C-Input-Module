@@ -1,6 +1,6 @@
 # M470C Input Module · Input Pre Amps
 
-Ward-Beck Systems M470C, 1977|10. Wiki page: [M470C on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/PAGES/M470C.html)
+Ward-Beck Systems M470C, 1977|10. Wiki page: [M470C on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/WBSps.ca/Github.WardBeckSystems/MODULES.INPUT-PRE-AMPS.M470C-Input-Module/)
 
 | Folder | What is in it | Files |
 |---|---|---|

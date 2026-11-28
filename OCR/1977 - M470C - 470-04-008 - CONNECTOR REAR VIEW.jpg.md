@@ -1,5 +1,5 @@
 # 1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg
-Wiki page: [M470C](../../../../PAGES/M470C.md)
+Wiki page: [M470C](../)
 
 
 - **Year:** 1977 (module estimate (family))
